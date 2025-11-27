@@ -11,7 +11,7 @@ df = pd.read_csv("data_cat.csv")
 #st.dataframe(df)
 
 st.warning("⚙️ Les elements du dataset sont en anglais ")
-st.sidebar.image("C:/Users/conde/Downloads/header.jpg", caption = "Fait par EDA_Forge")
+st.sidebar.image("header.jpg", caption = "Fait par EDA_Forge")
 
 st.sidebar.header("Selectionnez les filtres")
 breed = st.sidebar.multiselect(
